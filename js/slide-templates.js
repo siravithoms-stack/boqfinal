@@ -16,6 +16,10 @@ export function renderSlideTemplate(slide) {
               <p style="font-size: 1.15rem; color: var(--text-secondary); margin-top: 12px; max-width: 900px;">
                 ${slide.subtitle}
               </p>
+              <div style="margin-top: 14px; display: inline-flex; align-items: center; gap: 8px; background: rgba(180, 83, 9, 0.08); border: 1px solid rgba(180, 83, 9, 0.28); padding: 7px 16px; border-radius: 8px; font-family: var(--font-mono); font-size: 0.95rem; font-weight: 600;">
+                <span style="color: var(--accent-cyan);">🌐 full slide + animation click link :</span>
+                <a href="https://siravithoms-stack.github.io/boqfinal/" target="_blank" style="color: var(--accent-cyan); text-decoration: underline;">https://siravithoms-stack.github.io/boqfinal/</a>
+              </div>
             </div>
 
             <!-- KPI Metric Cards -->

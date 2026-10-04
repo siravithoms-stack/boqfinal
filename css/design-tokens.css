@@ -1,0 +1,68 @@
+/* ==========================================================================
+   DESIGN TOKENS & SYSTEM VARIABLES
+   Industrial High-Tech & Precision Engineering Theme
+   ========================================================================== */
+
+:root {
+  /* Color Palette - Industrial Deep Space & Neon Telemetry */
+  --bg-darkest: #060911;
+  --bg-main: #0a0f1d;
+  --bg-card: rgba(16, 25, 44, 0.75);
+  --bg-card-hover: rgba(23, 36, 62, 0.85);
+  --bg-glass: rgba(14, 23, 42, 0.65);
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-glow: rgba(0, 229, 255, 0.35);
+
+  /* Primary Accent Colors */
+  --accent-cyan: #00e5ff;
+  --accent-cyan-dim: rgba(0, 229, 255, 0.15);
+  --accent-blue: #3b82f6;
+  --accent-indigo: #6366f1;
+  
+  /* Status & Engineering Colors */
+  --accent-amber: #f59e0b;
+  --accent-amber-dim: rgba(245, 158, 11, 0.15);
+  --accent-emerald: #10b981;
+  --accent-emerald-dim: rgba(16, 185, 129, 0.15);
+  --accent-rose: #f43f5e;
+  --accent-rose-dim: rgba(244, 63, 94, 0.15);
+
+  /* Text & Content */
+  --text-pure: #ffffff;
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-tertiary: #64748b;
+  --text-accent: #38bdf8;
+
+  /* Typography Families - 100% Kanit Everywhere */
+  --font-display: 'Kanit', sans-serif;
+  --font-body: 'Kanit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'Kanit', monospace;
+
+  /* Elevation & Shadows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.6);
+  --shadow-cyan-glow: 0 0 25px rgba(0, 229, 255, 0.25);
+  --shadow-amber-glow: 0 0 25px rgba(245, 158, 11, 0.25);
+  --shadow-emerald-glow: 0 0 25px rgba(16, 185, 129, 0.25);
+
+  /* Layout Constants */
+  --header-height: 56px;
+  --footer-height: 52px;
+  --slide-aspect: 16 / 9;
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-full: 9999px;
+  
+  /* Transitions */
+  --transition-fast: 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-smooth: 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+html {
+  font-size: 17px;
+}
+

@@ -1,0 +1,1607 @@
+/* ==========================================================================
+   THEME: ARCHITECTURAL BRONZE & MINIMAL STONE (FLAGSHIP C-LEVEL EDITION)
+   Palette:
+   - 60% Background: #FAF9F6 (Warm Stone White) / #FFFFFF (Cards)
+   - 30% Primary: #262626 (Neutral Graphite) / #18181B (Deep Charcoal)
+   - 10% Accent: #B45309 (Warm Copper / Bronze)
+   ========================================================================== */
+
+body.theme-bronze-stone {
+  /* Override CSS Tokens */
+  --bg-darkest: #FAF9F6;
+  --bg-main: #FFFFFF;
+  --bg-card: #FFFFFF;
+  --bg-card-hover: #FFFFFF;
+  --bg-glass: rgba(250, 249, 246, 0.95);
+  --border-subtle: rgba(38, 38, 38, 0.12);
+  --border-glow: rgba(180, 83, 9, 0.4);
+
+  --accent-cyan: #B45309;
+  --accent-cyan-dim: rgba(180, 83, 9, 0.1);
+  --accent-blue: #92400E;
+  --accent-indigo: #78350F;
+
+  --accent-amber: #D97706;
+  --accent-amber-dim: rgba(217, 119, 6, 0.1);
+  --accent-emerald: #059669;
+  --accent-emerald-dim: rgba(5, 150, 105, 0.1);
+  --accent-rose: #DC2626;
+  --accent-rose-dim: rgba(220, 38, 38, 0.1);
+
+  --text-pure: #18181B;
+  --text-primary: #262626;
+  --text-secondary: #52525B;
+  --text-tertiary: #71717A;
+  --text-accent: #B45309;
+
+  --shadow-sm: 0 2px 8px rgba(38, 38, 38, 0.05);
+  --shadow-md: 0 8px 24px rgba(38, 38, 38, 0.08);
+  --shadow-lg: 0 16px 40px rgba(38, 38, 38, 0.12);
+  --shadow-cyan-glow: 0 0 25px rgba(180, 83, 9, 0.2);
+
+  background-color: #FAF9F6;
+  color: #262626;
+}
+
+/* Background Ambient Layer - Architectural Drafting Grid */
+body.theme-bronze-stone .bg-ambient-layer {
+  background-image:
+    radial-gradient(circle at 15% 15%, rgba(180, 83, 9, 0.05) 0%, transparent 45%),
+    radial-gradient(circle at 85% 85%, rgba(120, 53, 15, 0.04) 0%, transparent 50%),
+    linear-gradient(rgba(38, 38, 38, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(38, 38, 38, 0.035) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 48px 48px, 48px 48px;
+}
+
+/* Top Navigation Bar */
+body.theme-bronze-stone .top-bar {
+  background: rgba(250, 249, 246, 0.96);
+  border-bottom: 1px solid rgba(38, 38, 38, 0.12);
+  box-shadow: 0 2px 10px rgba(38, 38, 38, 0.04);
+}
+
+body.theme-bronze-stone .brand-badge {
+  background: linear-gradient(135deg, #78350F, #B45309);
+  color: #FFFFFF;
+  box-shadow: 0 2px 12px rgba(180, 83, 9, 0.35);
+}
+
+body.theme-bronze-stone .project-title {
+  color: #262626;
+}
+
+body.theme-bronze-stone .project-title strong {
+  color: #B45309 !important;
+}
+
+body.theme-bronze-stone .hud-btn {
+  background: rgba(38, 38, 38, 0.04);
+  border: 1px solid rgba(38, 38, 38, 0.14);
+  color: #52525B;
+}
+
+body.theme-bronze-stone .hud-btn:hover {
+  background: rgba(180, 83, 9, 0.08);
+  border-color: #B45309;
+  color: #B45309;
+  box-shadow: 0 0 12px rgba(180, 83, 9, 0.15);
+}
+
+body.theme-bronze-stone .hud-btn.active {
+  background: rgba(180, 83, 9, 0.12);
+  border-color: #B45309;
+  color: #B45309;
+}
+
+/* Master Slide Canvas Wrapper */
+body.theme-bronze-stone .slide-canvas-wrapper {
+  background: #FFFFFF;
+  border: 1px solid rgba(38, 38, 38, 0.12);
+  box-shadow: 0 16px 40px rgba(38, 38, 38, 0.08), 0 0 1px rgba(38, 38, 38, 0.15);
+}
+
+/* Slide Header Elements */
+body.theme-bronze-stone .slide-title {
+  color: #18181B;
+}
+
+body.theme-bronze-stone .slide-subtitle {
+  color: #52525B;
+}
+
+body.theme-bronze-stone .slide-tag {
+  color: #B45309;
+}
+
+body.theme-bronze-stone .slide-tag::before {
+  background: #B45309;
+  box-shadow: 0 0 8px #B45309;
+}
+
+body.theme-bronze-stone .slide-badge {
+  background: rgba(180, 83, 9, 0.08);
+  border-color: rgba(180, 83, 9, 0.3);
+  color: #B45309;
+}
+
+/* ==========================================================================
+   GLOBAL UNIVERSAL CARD & TEXT OVERRIDES (LIGHT THEME CONTRAST FIX)
+   ========================================================================== */
+body.theme-bronze-stone .bento-card {
+  background: #FFFFFF !important;
+  border: 1px solid rgba(38, 38, 38, 0.12) !important;
+  color: #262626 !important;
+  box-shadow: 0 4px 18px rgba(38, 38, 38, 0.05) !important;
+}
+
+body.theme-bronze-stone .bento-card.highlight-cyan {
+  border-color: rgba(180, 83, 9, 0.35) !important;
+  box-shadow: 0 4px 20px rgba(180, 83, 9, 0.08) !important;
+}
+
+body.theme-bronze-stone .card-title {
+  color: #18181B !important;
+}
+
+body.theme-bronze-stone .card-subtitle {
+  color: #52525B !important;
+}
+
+body.theme-bronze-stone .card-badge {
+  background: rgba(38, 38, 38, 0.05) !important;
+  border: 1px solid rgba(38, 38, 38, 0.12) !important;
+  color: #52525B !important;
+}
+
+body.theme-bronze-stone .metric-box {
+  background: #FAF9F6 !important;
+  border: 1px solid rgba(38, 38, 38, 0.1) !important;
+}
+
+/* Slide 1 Hero KPI Centered Metric Frames */
+body.theme-bronze-stone .hero-kpi-card {
+  background: #FFFFFF !important;
+  border: 1px solid rgba(38, 38, 38, 0.12) !important;
+  box-shadow: 0 4px 16px rgba(38, 38, 38, 0.04) !important;
+  border-radius: var(--radius-lg) !important;
+}
+
+body.theme-bronze-stone .hero-kpi-card .hero-metric-frame {
+  background: #FAF9F6 !important;
+  border: 1px solid rgba(38, 38, 38, 0.1) !important;
+  border-radius: var(--radius-md) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  padding: 14px 16px !important;
+}
+
+body.theme-bronze-stone .hero-kpi-card .metric-label {
+  text-align: center !important;
+  color: #52525B !important;
+  font-size: 0.95rem !important;
+  font-weight: 600 !important;
+  margin-bottom: 4px !important;
+}
+
+body.theme-bronze-stone .hero-kpi-card .metric-val {
+  text-align: center !important;
+  font-size: 2.85rem !important;
+  font-weight: 800 !important;
+  line-height: 1.15 !important;
+  margin: 2px 0 4px 0 !important;
+  text-shadow: none !important;
+  filter: none !important;
+}
+
+body.theme-bronze-stone .hero-kpi-card .metric-sub {
+  text-align: center !important;
+  color: #71717A !important;
+  font-size: 0.88rem !important;
+  font-weight: 500 !important;
+}
+
+body.theme-bronze-stone .metric-box {
+  text-shadow: none !important;
+}
+
+body.theme-bronze-stone .metric-val {
+  text-shadow: none !important;
+  filter: none !important;
+}
+
+body.theme-bronze-stone .metric-label {
+  color: #52525B !important;
+}
+
+body.theme-bronze-stone .metric-sub {
+  color: #71717A !important;
+}
+
+body.theme-bronze-stone .metric-val.white {
+  color: #18181B !important;
+  text-shadow: none !important;
+}
+
+body.theme-bronze-stone .metric-val.cyan {
+  color: #B45309 !important;
+  text-shadow: none !important;
+}
+
+body.theme-bronze-stone .metric-val.amber {
+  color: #D97706 !important;
+  text-shadow: none !important;
+}
+
+body.theme-bronze-stone .metric-val.emerald {
+  color: #059669 !important;
+  text-shadow: none !important;
+}
+
+body.theme-bronze-stone .metric-val.rose,
+body.theme-bronze-stone .metric-val.red {
+  color: #DC2626 !important;
+  text-shadow: none !important;
+}
+
+body.theme-bronze-stone .metric-val.blue {
+  color: #92400E !important;
+  text-shadow: none !important;
+}
+
+/* Universal selector to catch any hardcoded inline white text */
+body.theme-bronze-stone [style*="color: #fff"],
+body.theme-bronze-stone [style*="color: #ffffff"],
+body.theme-bronze-stone [style*="color:#fff"],
+body.theme-bronze-stone [style*="color:#ffffff"],
+body.theme-bronze-stone [style*="color: white"],
+body.theme-bronze-stone [style*="color:white"] {
+  color: #18181B !important;
+}
+
+/* Universal selector for step items */
+body.theme-bronze-stone .tech-step-item {
+  background: #FAF9F6 !important;
+  border: 1px solid rgba(38, 38, 38, 0.1) !important;
+}
+
+/* ==========================================================================
+   SLIDE 1: HERO & EXECUTIVE PRESENTATION
+   ========================================================================== */
+body.theme-bronze-stone .hero-exec-banner {
+  background: linear-gradient(135deg, #FFFFFF 0%, #FAF9F6 100%) !important;
+  border: 1px solid rgba(180, 83, 9, 0.3) !important;
+  box-shadow: 0 8px 24px rgba(180, 83, 9, 0.08) !important;
+}
+
+body.theme-bronze-stone .stakeholder-card {
+  background: #FAF9F6 !important;
+  border: 1px solid rgba(38, 38, 38, 0.1) !important;
+  box-shadow: 0 2px 8px rgba(38, 38, 38, 0.03) !important;
+}
+
+/* ==========================================================================
+   SLIDE 2: 3D WAREHOUSE & LOCATION
+   ========================================================================== */
+body.theme-bronze-stone .warehouse-loc-box {
+  background: rgba(180, 83, 9, 0.06) !important;
+  border: 1px solid rgba(180, 83, 9, 0.25) !important;
+}
+
+body.theme-bronze-stone .fragment-item {
+  background: #FAF9F6 !important;
+  border: 1px solid rgba(38, 38, 38, 0.08) !important;
+  border-left: 3px solid #B45309 !important;
+}
+
+/* ==========================================================================
+   SLIDE 3: COMMERCIAL FLOW
+   ========================================================================== */
+body.theme-bronze-stone .math-node {
+  background: #FAF9F6 !important;
+  border: 1px solid rgba(38, 38, 38, 0.12) !important;
+  box-shadow: 0 2px 10px rgba(38, 38, 38, 0.04) !important;
+}
+
+body.theme-bronze-stone .math-node.primary {
+  background: #FFFFFF !important;
+  border: 2px solid #B45309 !important;
+  box-shadow: 0 4px 18px rgba(180, 83, 9, 0.15) !important;
+}
+
+body.theme-bronze-stone .math-operator {
+  color: #71717A !important;
+}
+
+body.theme-bronze-stone .comm-tax-note {
+  background: rgba(180, 83, 9, 0.06) !important;
+  border: 1px solid rgba(180, 83, 9, 0.25) !important;
+  color: #262626 !important;
+}
+
+/* ==========================================================================
+   SLIDE 4: SCOPE RESPONSIBILITY MATRIX
+   ========================================================================== */
+body.theme-bronze-stone .scope-column {
+  background: #FFFFFF !important;
+  border: 1px solid rgba(38, 38, 38, 0.12) !important;
+  box-shadow: 0 4px 20px rgba(38, 38, 38, 0.05) !important;
+}
+
+body.theme-bronze-stone .scope-col-header {
+  border-bottom: 1px solid rgba(38, 38, 38, 0.08) !important;
+}
+
+body.theme-bronze-stone .scope-head-title {
+  color: #18181B !important;
+}
+
+body.theme-bronze-stone .scope-head-sub {
+  color: #52525B !important;
+}
+
+body.theme-bronze-stone .scope-card-in {
+  background: #FAF9F6 !important;
+  border: 1px solid rgba(5, 150, 105, 0.3) !important;
+  box-shadow: 0 2px 6px rgba(5, 150, 105, 0.04) !important;
+}
+
+body.theme-bronze-stone .scope-card-in:hover {
+  background: #FFFFFF !important;
+  border-color: #059669 !important;
+  box-shadow: 0 4px 14px rgba(5, 150, 105, 0.15) !important;
+}
+
+body.theme-bronze-stone .scope-in-num {
+  background: rgba(5, 150, 105, 0.15) !important;
+  color: #059669 !important;
+}
+
+body.theme-bronze-stone .scope-in-title {
+  color: #18181B !important;
+  font-weight: 700 !important;
+}
+
+body.theme-bronze-stone .scope-in-desc {
+  color: #3F3F46 !important;
+}
+
+body.theme-bronze-stone .scope-card-out {
+  background: #FAF9F6 !important;
+  border: 1px solid rgba(220, 38, 38, 0.25) !important;
+  box-shadow: 0 2px 6px rgba(220, 38, 38, 0.04) !important;
+}
+
+body.theme-bronze-stone .scope-card-out:hover {
+  background: #FFFFFF !important;
+  border-color: #DC2626 !important;
+  box-shadow: 0 4px 14px rgba(220, 38, 38, 0.15) !important;
+}
+
+body.theme-bronze-stone .scope-out-title {
+  color: #18181B !important;
+  font-weight: 700 !important;
+}
+
+body.theme-bronze-stone .scope-out-owner {
+  background: rgba(220, 38, 38, 0.1) !important;
+  color: #DC2626 !important;
+  border: 1px solid rgba(220, 38, 38, 0.3) !important;
+}
+
+body.theme-bronze-stone .scope-out-desc {
+  color: #3F3F46 !important;
+}
+
+body.theme-bronze-stone .scope-mitigation-banner {
+  background: rgba(180, 83, 9, 0.06) !important;
+  border: 1px solid rgba(180, 83, 9, 0.25) !important;
+  color: #262626 !important;
+}
+
+body.theme-bronze-stone .mitigation-body {
+  color: #262626 !important;
+}
+
+body.theme-bronze-stone .mitigation-body strong {
+  color: #B45309 !important;
+}
+
+/* ==========================================================================
+   SLIDE 5: COMMERCIAL BASELINE (8 PILLARS)
+   ========================================================================== */
+body.theme-bronze-stone .baseline-kpi-tile {
+  background: #FFFFFF !important;
+  border: 1px solid rgba(38, 38, 38, 0.12) !important;
+  box-shadow: 0 4px 16px rgba(38, 38, 38, 0.05) !important;
+}
+
+body.theme-bronze-stone .kpi-tile-label {
+  color: #52525B !important;
+}
+
+body.theme-bronze-stone .kpi-tile-sub {
+  color: #18181B !important;
+  font-weight: 700 !important;
+}
+
+body.theme-bronze-stone .kpi-tile-note {
+  color: #71717A !important;
+}
+
+body.theme-bronze-stone .baseline-term-box {
+  background: #FFFFFF !important;
+  border: 1px solid rgba(38, 38, 38, 0.1) !important;
+  box-shadow: 0 2px 8px rgba(38, 38, 38, 0.04) !important;
+}
+
+body.theme-bronze-stone .baseline-term-box:hover {
+  background: #FFFFFF !important;
+  border-color: #B45309 !important;
+  box-shadow: 0 4px 14px rgba(180, 83, 9, 0.12) !important;
+}
+
+body.theme-bronze-stone .term-box-num {
+  background: rgba(180, 83, 9, 0.12) !important;
+  color: #B45309 !important;
+  border: 1px solid rgba(180, 83, 9, 0.3) !important;
+}
+
+body.theme-bronze-stone .term-box-title {
+  color: #18181B !important;
+  font-weight: 700 !important;
+}
+
+body.theme-bronze-stone .term-box-badge {
+  background: rgba(180, 83, 9, 0.08) !important;
+  color: #B45309 !important;
+  border: 1px solid rgba(180, 83, 9, 0.25) !important;
+}
+
+body.theme-bronze-stone .term-box-desc {
+  color: #3F3F46 !important;
+}
+
+/* ==========================================================================
+   SLIDE 6: HANDOVER PROTOCOL & RE-ESTIMATE
+   ========================================================================== */
+body.theme-bronze-stone .handover-main-col,
+body.theme-bronze-stone .reestimate-main-col {
+  background: #FFFFFF !important;
+  border: 1px solid rgba(38, 38, 38, 0.12) !important;
+  box-shadow: 0 4px 20px rgba(38, 38, 38, 0.05) !important;
+}
+
+body.theme-bronze-stone .handover-deck-header {
+  border-bottom: 1px solid rgba(38, 38, 38, 0.08) !important;
+}
+
+body.theme-bronze-stone .deck-header-title {
+  color: #18181B !important;
+}
+
+body.theme-bronze-stone .deck-header-sub {
+  color: #52525B !important;
+}
+
+body.theme-bronze-stone .trail-step-card {
+  background: #FAF9F6 !important;
+  border: 1px solid rgba(38, 38, 38, 0.1) !important;
+}
+
+body.theme-bronze-stone .trail-step-card:hover {
+  background: #FFFFFF !important;
+  border-color: #B45309 !important;
+}
+
+body.theme-bronze-stone .trail-card-title {
+  color: #18181B !important;
+  font-weight: 700 !important;
+}
+
+body.theme-bronze-stone .trail-card-actor {
+  background: rgba(38, 38, 38, 0.06) !important;
+  color: #262626 !important;
+}
+
+body.theme-bronze-stone .trail-card-tag {
+  color: #B45309 !important;
+}
+
+body.theme-bronze-stone .trail-card-desc {
+  color: #3F3F46 !important;
+}
+
+body.theme-bronze-stone .trail-step-num {
+  background: rgba(180, 83, 9, 0.12) !important;
+  color: #B45309 !important;
+  border: 1px solid rgba(180, 83, 9, 0.3) !important;
+}
+
+body.theme-bronze-stone .trail-step-connector {
+  background: rgba(180, 83, 9, 0.25) !important;
+}
+
+body.theme-bronze-stone .reestimate-tile {
+  background: #FAF9F6 !important;
+  border: 1px solid rgba(38, 38, 38, 0.1) !important;
+}
+
+body.theme-bronze-stone .reestimate-tile:hover {
+  background: #FFFFFF !important;
+}
+
+body.theme-bronze-stone .reestimate-tile-title {
+  color: #18181B !important;
+  font-weight: 700 !important;
+}
+
+body.theme-bronze-stone .reestimate-tile-body {
+  color: #3F3F46 !important;
+}
+
+/* ==========================================================================
+   SLIDE 7: MOBILIZATION MATRIX (4 WEEKS)
+   ========================================================================== */
+body.theme-bronze-stone .mob-week-column {
+  background: #FFFFFF !important;
+  border: 1px solid rgba(38, 38, 38, 0.12) !important;
+  box-shadow: 0 4px 18px rgba(38, 38, 38, 0.05) !important;
+}
+
+body.theme-bronze-stone .mob-col-header {
+  border-bottom: 1px solid rgba(38, 38, 38, 0.08) !important;
+}
+
+body.theme-bronze-stone .mob-col-theme {
+  color: #18181B !important;
+  font-weight: 700 !important;
+}
+
+body.theme-bronze-stone .mob-task-box {
+  background: #FAF9F6 !important;
+  border: 1px solid rgba(38, 38, 38, 0.08) !important;
+}
+
+body.theme-bronze-stone .mob-task-box:hover {
+  background: #FFFFFF !important;
+  border-color: rgba(180, 83, 9, 0.3) !important;
+}
+
+body.theme-bronze-stone .mob-task-name {
+  color: #18181B !important;
+  font-weight: 700 !important;
+}
+
+body.theme-bronze-stone .mob-task-owner {
+  color: #71717A !important;
+}
+
+body.theme-bronze-stone .mob-task-desc {
+  color: #3F3F46 !important;
+}
+
+body.theme-bronze-stone .mob-gate-checklist {
+  background: rgba(38, 38, 38, 0.04) !important;
+  border: 1px solid rgba(38, 38, 38, 0.1) !important;
+}
+
+body.theme-bronze-stone .checklist-text {
+  color: #262626 !important;
+  font-weight: 600 !important;
+}
+
+/* ==========================================================================
+   SLIDE 8: SITE ORGANIZATION & PRELIM STAFF BUDGET
+/* ==========================================================================
+   SLIDE 8: SITE ORGANIZATION (EXECUTIVE BRONZE REFINEMENT)
+   ========================================================================== */
+body.theme-bronze-stone .org-pm-card {
+  background: #FFFFFF !important;
+  border: 1.5px solid rgba(180, 83, 9, 0.4) !important;
+  box-shadow: 0 10px 30px rgba(180, 83, 9, 0.08), 0 2px 8px rgba(38, 38, 38, 0.04) !important;
+}
+
+body.theme-bronze-stone .org-pm-card:hover {
+  border-color: #B45309 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 14px 36px rgba(180, 83, 9, 0.14) !important;
+}
+
+body.theme-bronze-stone .org-pm-title {
+  color: #18181B !important;
+  font-weight: 800 !important;
+  font-size: 1.25rem !important;
+}
+
+body.theme-bronze-stone .org-qual-pill {
+  background: rgba(180, 83, 9, 0.08) !important;
+  border: 1px solid rgba(180, 83, 9, 0.25) !important;
+  color: #B45309 !important;
+  font-weight: 700 !important;
+}
+
+body.theme-bronze-stone .org-pm-desc {
+  color: #52525B !important;
+  font-size: 0.9rem !important;
+  font-weight: 500 !important;
+}
+
+body.theme-bronze-stone .org-pm-salary-box {
+  background: rgba(180, 83, 9, 0.06) !important;
+  border: 1.5px solid rgba(180, 83, 9, 0.25) !important;
+}
+
+body.theme-bronze-stone .org-salary-label {
+  color: #71717A !important;
+}
+
+body.theme-bronze-stone .org-salary-currency {
+  color: #B45309 !important;
+}
+
+body.theme-bronze-stone .org-salary-amount {
+  color: #B45309 !important;
+  font-weight: 900 !important;
+}
+
+body.theme-bronze-stone .org-salary-period {
+  color: #71717A !important;
+}
+
+body.theme-bronze-stone .org-avatar-img {
+  border: 1.5px solid rgba(38, 38, 38, 0.12) !important;
+  box-shadow: 0 3px 10px rgba(38, 38, 38, 0.08) !important;
+}
+
+body.theme-bronze-stone .org-column-header {
+  background: #FFFFFF !important;
+  border: 1px solid rgba(38, 38, 38, 0.1) !important;
+  box-shadow: 0 2px 6px rgba(38, 38, 38, 0.03) !important;
+  color: #18181B !important;
+}
+
+body.theme-bronze-stone .org-col-title-text {
+  color: #18181B !important;
+  font-weight: 700 !important;
+}
+
+body.theme-bronze-stone .org-role-card {
+  background: #FFFFFF !important;
+  border: 1px solid rgba(38, 38, 38, 0.1) !important;
+  box-shadow: 0 2px 8px rgba(38, 38, 38, 0.04) !important;
+}
+
+body.theme-bronze-stone .org-role-card:hover {
+  background: #FFFFFF !important;
+  border-color: #B45309 !important;
+  box-shadow: 0 6px 20px rgba(180, 83, 9, 0.12) !important;
+}
+
+body.theme-bronze-stone .org-role-title {
+  color: #18181B !important;
+  font-weight: 700 !important;
+  font-size: 1.02rem !important;
+}
+
+body.theme-bronze-stone .org-role-qual {
+  color: #52525B !important;
+  font-weight: 500 !important;
+}
+
+body.theme-bronze-stone .org-balance-card {
+  background: #FFFFFF !important;
+  border: 1.5px dashed rgba(5, 150, 105, 0.35) !important;
+  box-shadow: 0 2px 8px rgba(38, 38, 38, 0.04) !important;
+}
+
+body.theme-bronze-stone .org-balance-title {
+  color: #065F46 !important;
+  font-weight: 700 !important;
+}
+
+body.theme-bronze-stone .org-balance-sub {
+  color: #52525B !important;
+}
+
+body.theme-bronze-stone .org-bottom-banner {
+  background: #FFFFFF !important;
+  border: 1.5px solid rgba(180, 83, 9, 0.22) !important;
+  box-shadow: 0 4px 16px rgba(180, 83, 9, 0.06) !important;
+}
+
+body.theme-bronze-stone .org-banner-icon {
+  background: rgba(180, 83, 9, 0.12) !important;
+  border-color: rgba(180, 83, 9, 0.25) !important;
+  color: #B45309 !important;
+}
+
+body.theme-bronze-stone .org-banner-text {
+  color: #262626 !important;
+  font-weight: 500 !important;
+  font-size: 0.94rem !important;
+}
+
+body.theme-bronze-stone .org-budget-alert-pill {
+  background: rgba(220, 38, 38, 0.08) !important;
+  border: 1px solid rgba(220, 38, 38, 0.25) !important;
+  color: #DC2626 !important;
+  font-weight: 700 !important;
+}
+
+/* ==========================================================================
+   SLIDE 9: FINANCIAL GOVERNANCE (SELL BOQ VS TARGET BUDGET)
+   ========================================================================== */
+body.theme-bronze-stone .tech-table {
+  background: #FFFFFF !important;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  border-radius: 8px !important;
+  overflow: hidden !important;
+  border: 1px solid rgba(38, 38, 38, 0.1) !important;
+}
+
+body.theme-bronze-stone .tech-table th {
+  background: #F4F3EF !important;
+  color: #18181B !important;
+  font-weight: 700 !important;
+  border-bottom: 2px solid rgba(180, 83, 9, 0.4) !important;
+}
+
+body.theme-bronze-stone .tech-table td {
+  color: #262626 !important;
+  border-bottom: 1px solid rgba(38, 38, 38, 0.08) !important;
+}
+
+body.theme-bronze-stone .tech-table tr:hover td {
+  background: rgba(180, 83, 9, 0.04) !important;
+}
+
+/* ==========================================================================
+   SLIDE 10: COST CONTROL ACTION PLAN (3-MONTH COST LOCK)
+   ========================================================================== */
+body.theme-bronze-stone .costlock-month-col {
+  background: #FFFFFF !important;
+  border: 1px solid rgba(38, 38, 38, 0.12) !important;
+  box-shadow: 0 4px 18px rgba(38, 38, 38, 0.05) !important;
+}
+
+body.theme-bronze-stone .costlock-card-header {
+  border-bottom: 1px solid rgba(38, 38, 38, 0.08) !important;
+}
+
+body.theme-bronze-stone .costlock-month-title {
+  color: #18181B !important;
+  font-weight: 700 !important;
+}
+
+body.theme-bronze-stone .costlock-target-badge {
+  background: rgba(180, 83, 9, 0.06) !important;
+  border: 1px solid rgba(180, 83, 9, 0.2) !important;
+}
+
+body.theme-bronze-stone .target-label {
+  color: #52525B !important;
+}
+
+body.theme-bronze-stone .target-val {
+  color: #18181B !important;
+  font-weight: 700 !important;
+}
+
+body.theme-bronze-stone .actions-list-title {
+  color: #18181B !important;
+  font-weight: 700 !important;
+}
+
+body.theme-bronze-stone .costlock-action-row {
+  color: #262626 !important;
+}
+
+body.theme-bronze-stone .action-text {
+  color: #262626 !important;
+}
+
+body.theme-bronze-stone .costlock-footer-boxes {
+  border-top: 1px solid rgba(38, 38, 38, 0.08) !important;
+}
+
+body.theme-bronze-stone .box-label {
+  color: #18181B !important;
+  font-weight: 700 !important;
+}
+
+body.theme-bronze-stone .box-content {
+  color: #3F3F46 !important;
+  font-weight: 500 !important;
+}
+
+/* ==========================================================================
+   SLIDE 11: PRELIMINARY BUDGET TABLE
+   ========================================================================== */
+body.theme-bronze-stone .prelim-row-card {
+  background: #FFFFFF !important;
+  border: 1px solid rgba(38, 38, 38, 0.12) !important;
+  box-shadow: 0 2px 8px rgba(38, 38, 38, 0.04) !important;
+}
+
+body.theme-bronze-stone .prelim-row-card:hover {
+  background: #FFFFFF !important;
+  border-color: #B45309 !important;
+  box-shadow: 0 4px 16px rgba(180, 83, 9, 0.12) !important;
+}
+
+body.theme-bronze-stone .prelim-row-num {
+  background: rgba(180, 83, 9, 0.08) !important;
+  border: 1px solid rgba(180, 83, 9, 0.2) !important;
+}
+
+body.theme-bronze-stone .prelim-row-name {
+  color: #18181B !important;
+  font-weight: 700 !important;
+}
+
+body.theme-bronze-stone .prelim-row-desc {
+  color: #52525B !important;
+}
+
+body.theme-bronze-stone .prelim-row-amt {
+  color: #18181B !important;
+  font-weight: 700 !important;
+}
+
+body.theme-bronze-stone .prelim-row-pct {
+  background: rgba(180, 83, 9, 0.1) !important;
+  color: #B45309 !important;
+  border: 1px solid rgba(180, 83, 9, 0.3) !important;
+}
+
+body.theme-bronze-stone .prelim-footer-banner {
+  background: rgba(180, 83, 9, 0.06) !important;
+  border: 1px solid rgba(180, 83, 9, 0.25) !important;
+  box-shadow: 0 2px 10px rgba(180, 83, 9, 0.05) !important;
+}
+
+body.theme-bronze-stone .prelim-footer-label {
+  color: #52525B !important;
+}
+
+body.theme-bronze-stone .prelim-footer-val {
+  color: #B45309 !important;
+  font-weight: 800 !important;
+}
+
+body.theme-bronze-stone .prelim-footer-note {
+  color: #262626 !important;
+}
+
+/* ==========================================================================
+   SLIDE 12: PRELIMINARY BURN-RATE & CASH FLOW
+   ========================================================================== */
+body.theme-bronze-stone .burn-pres-container,
+body.theme-bronze-stone .prelim-deck {
+  color: #262626;
+}
+
+body.theme-bronze-stone .burn-card {
+  background: #FFFFFF !important;
+  border: 1px solid rgba(38, 38, 38, 0.12) !important;
+  box-shadow: 0 4px 20px rgba(38, 38, 38, 0.05) !important;
+}
+
+body.theme-bronze-stone .burn-card-title {
+  color: #18181B !important;
+}
+
+body.theme-bronze-stone .burn-card-badge {
+  background: rgba(180, 83, 9, 0.08) !important;
+  border-color: rgba(180, 83, 9, 0.3) !important;
+  color: #B45309 !important;
+}
+
+body.theme-bronze-stone .burn-cat-item {
+  background: #FAF9F6 !important;
+  border-left-color: #B45309 !important;
+}
+
+body.theme-bronze-stone .burn-cat-name {
+  color: #18181B !important;
+}
+
+body.theme-bronze-stone .burn-cat-desc {
+  color: #52525B !important;
+}
+
+body.theme-bronze-stone .burn-bar-amount {
+  color: #18181B !important;
+}
+
+body.theme-bronze-stone .burn-bar-track {
+  background: #FAF9F6 !important;
+  border: 1px solid rgba(38, 38, 38, 0.08) !important;
+}
+
+body.theme-bronze-stone .burn-bar-month {
+  color: #18181B !important;
+}
+
+body.theme-bronze-stone .burn-strategy-box {
+  background: rgba(180, 83, 9, 0.06) !important;
+  border: 1px solid rgba(180, 83, 9, 0.25) !important;
+}
+
+body.theme-bronze-stone .burn-strat-title {
+  color: #B45309 !important;
+}
+
+body.theme-bronze-stone .burn-strat-desc {
+  color: #262626 !important;
+}
+
+body.theme-bronze-stone .burn-kpi-card {
+  background: #FFFFFF !important;
+  border: 1px solid rgba(38, 38, 38, 0.12) !important;
+  box-shadow: 0 4px 16px rgba(38, 38, 38, 0.05) !important;
+}
+
+body.theme-bronze-stone .burn-kpi-val {
+  color: #18181B !important;
+}
+
+body.theme-bronze-stone .burn-kpi-label {
+  color: #52525B !important;
+}
+
+body.theme-bronze-stone .burn-kpi-sub {
+  color: #71717A !important;
+}
+
+/* ==========================================================================
+   SLIDE 13 & 15: MASTER SCHEDULE GANTT & SHOP DRAWINGS GANTT
+   ========================================================================== */
+body.theme-bronze-stone .gantt-board {
+  background: #FFFFFF !important;
+  border: 1px solid rgba(38, 38, 38, 0.12) !important;
+  box-shadow: 0 8px 24px rgba(38, 38, 38, 0.06) !important;
+}
+
+body.theme-bronze-stone .gantt-header-row {
+  border-bottom: 1.5px solid rgba(38, 38, 38, 0.15) !important;
+}
+
+body.theme-bronze-stone .gantt-row {
+  border-bottom: 1px solid rgba(38, 38, 38, 0.06) !important;
+}
+
+body.theme-bronze-stone .gantt-row:hover {
+  background: rgba(180, 83, 9, 0.04) !important;
+}
+
+body.theme-bronze-stone .gantt-task-name {
+  color: #18181B !important;
+  font-weight: 700 !important;
+}
+
+body.theme-bronze-stone .gantt-month-col-header {
+  color: #52525B !important;
+  font-weight: 700 !important;
+}
+
+body.theme-bronze-stone .gantt-month-col-header:hover {
+  color: #B45309 !important;
+  background: rgba(180, 83, 9, 0.1) !important;
+}
+
+body.theme-bronze-stone .gantt-phase-pill {
+  background: #FFFFFF !important;
+  border: 1px solid rgba(38, 38, 38, 0.1) !important;
+  box-shadow: 0 2px 6px rgba(38, 38, 38, 0.03) !important;
+}
+
+body.theme-bronze-stone .gantt-phase-pill-title {
+  color: #18181B !important;
+}
+
+body.theme-bronze-stone .gantt-timeline-badge {
+  background: rgba(38, 38, 38, 0.04) !important;
+  border: 1px solid rgba(38, 38, 38, 0.12) !important;
+  color: #262626 !important;
+}
+
+/* ==========================================================================
+   SLIDE 14: INTERACTIVE S-CURVE
+   ========================================================================== */
+body.theme-bronze-stone .chart-scrubber-controls {
+  color: #262626 !important;
+}
+
+body.theme-bronze-stone .chart-scrubber-slider {
+  background: rgba(38, 38, 38, 0.12) !important;
+}
+
+/* ==========================================================================
+   SLIDE 16 & 17: SUPPLY CHAIN LEAD-TIME GANTT (PART 1 & 2)
+   ========================================================================== */
+body.theme-bronze-stone .supply-gantt-board {
+  background: #FFFFFF !important;
+  border: 1px solid rgba(38, 38, 38, 0.14) !important;
+  box-shadow: 0 8px 24px rgba(38, 38, 38, 0.06) !important;
+}
+
+body.theme-bronze-stone .supply-gantt-header-row {
+  border-bottom: 1.5px solid rgba(38, 38, 38, 0.15) !important;
+}
+
+body.theme-bronze-stone .supply-gantt-row {
+  border-bottom: 1px solid rgba(38, 38, 38, 0.06) !important;
+}
+
+body.theme-bronze-stone .supply-gantt-row:hover {
+  background: rgba(180, 83, 9, 0.04) !important;
+}
+
+body.theme-bronze-stone .supply-header-meta {
+  color: #B45309 !important;
+  font-weight: 700 !important;
+}
+
+body.theme-bronze-stone .supply-month-header {
+  color: #18181B !important;
+  font-weight: 700 !important;
+  font-size: 0.78rem !important;
+  border-left: 1px dashed rgba(38, 38, 38, 0.14) !important;
+}
+
+body.theme-bronze-stone .supply-item-title {
+  color: #18181B !important;
+  font-weight: 700 !important;
+}
+
+body.theme-bronze-stone .supply-item-sub {
+  color: #52525B !important;
+}
+
+body.theme-bronze-stone .supply-timeline-track {
+  background-image: repeating-linear-gradient(to right, transparent, transparent calc(10% - 1px), rgba(38, 38, 38, 0.07) calc(10% - 1px), rgba(38, 38, 38, 0.07) 10%) !important;
+}
+
+body.theme-bronze-stone .supply-gantt-legend {
+  background: #FFFFFF !important;
+  border: 1px solid rgba(38, 38, 38, 0.18) !important;
+  box-shadow: 0 2px 8px rgba(38, 38, 38, 0.06) !important;
+}
+
+body.theme-bronze-stone .supply-legend-item {
+  color: #18181B !important;
+  font-weight: 700 !important;
+  font-size: 0.78rem !important;
+}
+
+body.theme-bronze-stone .supply-legend-item span {
+  color: #18181B !important;
+}
+
+body.theme-bronze-stone .supply-bar {
+  color: #FFFFFF !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.75) !important;
+}
+
+body.theme-bronze-stone .supply-bar span {
+  color: #FFFFFF !important;
+  font-weight: 700 !important;
+}
+
+body.theme-bronze-stone .supply-bar-order {
+  background: linear-gradient(90deg, #d97706, #b45309) !important;
+  border: 1px solid rgba(180, 83, 9, 0.85) !important;
+}
+
+body.theme-bronze-stone .supply-bar-arrive {
+  background: linear-gradient(90deg, #0284c7, #0369a1) !important;
+  border: 1px solid rgba(2, 132, 199, 0.85) !important;
+}
+
+body.theme-bronze-stone .supply-bar-install {
+  background: linear-gradient(90deg, #059669, #047857) !important;
+  border: 1px solid rgba(5, 150, 105, 0.85) !important;
+}
+
+/* ==========================================================================
+   SLIDE 18: 3-DIMENSION SITE EXECUTION & LOGISTICS
+   ========================================================================== */
+body.theme-bronze-stone .sitelog-pillar {
+  background: #FFFFFF;
+  box-shadow: 0 4px 20px rgba(38, 38, 38, 0.06);
+}
+
+body.theme-bronze-stone .sitelog-pillar-cyan {
+  border-color: rgba(180, 83, 9, 0.35);
+  background: linear-gradient(180deg, rgba(180, 83, 9, 0.03) 0%, #FFFFFF 100%);
+  box-shadow: 0 6px 24px rgba(180, 83, 9, 0.08);
+}
+
+body.theme-bronze-stone .sitelog-pillar-amber {
+  border-color: rgba(217, 119, 6, 0.35);
+  background: linear-gradient(180deg, rgba(217, 119, 6, 0.03) 0%, #FFFFFF 100%);
+  box-shadow: 0 6px 24px rgba(217, 119, 6, 0.08);
+}
+
+body.theme-bronze-stone .sitelog-pillar-emerald {
+  border-color: rgba(5, 150, 105, 0.35);
+  background: linear-gradient(180deg, rgba(5, 150, 105, 0.03) 0%, #FFFFFF 100%);
+  box-shadow: 0 6px 24px rgba(5, 150, 105, 0.08);
+}
+
+body.theme-bronze-stone .sitelog-pillar-head {
+  border-bottom-color: rgba(38, 38, 38, 0.08);
+}
+
+body.theme-bronze-stone .sitelog-head-num {
+  color: #18181B;
+}
+
+body.theme-bronze-stone .sitelog-head-title {
+  color: #18181B;
+}
+
+body.theme-bronze-stone .sitelog-head-sub {
+  color: #71717A;
+}
+
+body.theme-bronze-stone .sitelog-action-card {
+  background: #FAF9F6;
+  border-color: rgba(38, 38, 38, 0.08);
+  box-shadow: 0 2px 6px rgba(38, 38, 38, 0.03);
+}
+
+body.theme-bronze-stone .sitelog-action-card:hover {
+  background: #FFFFFF;
+  border-color: rgba(180, 83, 9, 0.4);
+  box-shadow: 0 6px 20px rgba(180, 83, 9, 0.1);
+}
+
+body.theme-bronze-stone .sitelog-item-title {
+  color: #18181B;
+}
+
+body.theme-bronze-stone .sitelog-item-desc {
+  color: #3F3F46;
+}
+
+body.theme-bronze-stone .sitelog-item-desc strong {
+  color: #18181B;
+  text-shadow: none;
+}
+
+/* ==========================================================================
+   SLIDE 25 & 26: CASH FLOW MANAGEMENT & S-CURVE
+   ========================================================================== */
+body.theme-bronze-stone .cashflow-table-deck {
+  background: #FFFFFF !important;
+  border: 1px solid rgba(38, 38, 38, 0.12) !important;
+}
+
+/* ==========================================================================
+   SLIDE 27: 2-TIER GOVERNANCE
+   ========================================================================== */
+body.theme-bronze-stone .gov-tier-card {
+  background: #FFFFFF;
+  box-shadow: 0 4px 20px rgba(38, 38, 38, 0.06);
+}
+
+body.theme-bronze-stone .gov-tier-cyan {
+  border-color: rgba(180, 83, 9, 0.35);
+  background: linear-gradient(180deg, rgba(180, 83, 9, 0.03) 0%, #FFFFFF 100%);
+}
+
+body.theme-bronze-stone .gov-tier-amber {
+  border-color: rgba(217, 119, 6, 0.35);
+  background: linear-gradient(180deg, rgba(217, 119, 6, 0.03) 0%, #FFFFFF 100%);
+}
+
+body.theme-bronze-stone .gov-tier-header {
+  border-bottom-color: rgba(38, 38, 38, 0.08);
+}
+
+body.theme-bronze-stone .gov-tier-title {
+  color: #18181B;
+}
+
+body.theme-bronze-stone .attendee-label {
+  color: #71717A;
+}
+
+body.theme-bronze-stone .attendee-names {
+  color: #262626;
+}
+
+body.theme-bronze-stone .gov-agenda-item {
+  background: #FAF9F6;
+  border-color: rgba(38, 38, 38, 0.08);
+}
+
+body.theme-bronze-stone .cyan-hover:hover {
+  background: #FFFFFF;
+  border-color: rgba(180, 83, 9, 0.4);
+  box-shadow: 0 4px 16px rgba(180, 83, 9, 0.1);
+}
+
+body.theme-bronze-stone .amber-hover:hover {
+  background: #FFFFFF;
+  border-color: rgba(217, 119, 6, 0.4);
+  box-shadow: 0 4px 16px rgba(217, 119, 6, 0.1);
+}
+
+body.theme-bronze-stone .gov-agenda-title {
+  color: #18181B;
+}
+
+body.theme-bronze-stone .gov-agenda-desc {
+  color: #52525B;
+}
+
+body.theme-bronze-stone .gov-sla-strip {
+  background: #FAF9F6;
+  border-color: rgba(38, 38, 38, 0.1);
+  box-shadow: 0 2px 10px rgba(38, 38, 38, 0.04);
+}
+
+body.theme-bronze-stone .gov-sla-lead-text {
+  color: #B45309;
+}
+
+body.theme-bronze-stone .gov-sla-label {
+  color: #B45309;
+}
+
+body.theme-bronze-stone .gov-sla-text {
+  color: #262626;
+}
+
+/* ==========================================================================
+   SLIDE 28: CLOSE-OUT MODEL
+   ========================================================================== */
+body.theme-bronze-stone .closeout-progress-banner {
+  background: #FAF9F6;
+  border-color: rgba(38, 38, 38, 0.1);
+  box-shadow: 0 2px 10px rgba(38, 38, 38, 0.04);
+}
+
+body.theme-bronze-stone .closeout-banner-headline {
+  color: #B45309;
+}
+
+body.theme-bronze-stone .closeout-banner-sub {
+  color: #3F3F46;
+}
+
+body.theme-bronze-stone .closeout-col {
+  background: #FFFFFF;
+  box-shadow: 0 4px 20px rgba(38, 38, 38, 0.06);
+}
+
+body.theme-bronze-stone .closeout-col-cyan {
+  border-color: rgba(180, 83, 9, 0.35);
+  background: linear-gradient(180deg, rgba(180, 83, 9, 0.03) 0%, #FFFFFF 100%);
+}
+
+body.theme-bronze-stone .closeout-col-sky {
+  border-color: rgba(146, 64, 14, 0.35);
+  background: linear-gradient(180deg, rgba(146, 64, 14, 0.03) 0%, #FFFFFF 100%);
+}
+
+body.theme-bronze-stone .closeout-col-amber {
+  border-color: rgba(217, 119, 6, 0.35);
+  background: linear-gradient(180deg, rgba(217, 119, 6, 0.03) 0%, #FFFFFF 100%);
+}
+
+body.theme-bronze-stone .closeout-col-emerald {
+  border-color: rgba(5, 150, 105, 0.35);
+  background: linear-gradient(180deg, rgba(5, 150, 105, 0.03) 0%, #FFFFFF 100%);
+}
+
+body.theme-bronze-stone .closeout-col-dept {
+  color: #18181B;
+}
+
+body.theme-bronze-stone .closeout-act-row {
+  background: #FAF9F6;
+  border-color: rgba(38, 38, 38, 0.08);
+}
+
+body.theme-bronze-stone .closeout-act-text {
+  color: #3F3F46;
+}
+
+body.theme-bronze-stone .closeout-footer-deck {
+  border-top-color: rgba(38, 38, 38, 0.08);
+}
+
+body.theme-bronze-stone .deliverable-foot {
+  background: #FAF9F6;
+  border-color: rgba(38, 38, 38, 0.08);
+}
+
+body.theme-bronze-stone .foot-val {
+  color: #18181B;
+}
+
+/* ==========================================================================
+   SLIDE 29: LESSON LEARNED
+   ========================================================================== */
+body.theme-bronze-stone .lesson-col {
+  background: #FFFFFF;
+  box-shadow: 0 4px 20px rgba(38, 38, 38, 0.06);
+}
+
+body.theme-bronze-stone .lesson-col-cyan {
+  border-color: rgba(180, 83, 9, 0.35);
+  background: linear-gradient(180deg, rgba(180, 83, 9, 0.03) 0%, #FFFFFF 100%);
+}
+
+body.theme-bronze-stone .lesson-col-sky {
+  border-color: rgba(146, 64, 14, 0.35);
+  background: linear-gradient(180deg, rgba(146, 64, 14, 0.03) 0%, #FFFFFF 100%);
+}
+
+body.theme-bronze-stone .lesson-col-amber {
+  border-color: rgba(217, 119, 6, 0.35);
+  background: linear-gradient(180deg, rgba(217, 119, 6, 0.03) 0%, #FFFFFF 100%);
+}
+
+body.theme-bronze-stone .lesson-col-emerald {
+  border-color: rgba(5, 150, 105, 0.35);
+  background: linear-gradient(180deg, rgba(5, 150, 105, 0.03) 0%, #FFFFFF 100%);
+}
+
+body.theme-bronze-stone .lesson-col-title {
+  color: #18181B;
+}
+
+body.theme-bronze-stone .lesson-col-sub {
+  color: #71717A;
+}
+
+body.theme-bronze-stone .issue-item {
+  background: rgba(220, 38, 38, 0.04);
+  border-color: rgba(220, 38, 38, 0.2);
+}
+
+body.theme-bronze-stone .practice-item {
+  background: rgba(5, 150, 105, 0.04);
+  border-color: rgba(5, 150, 105, 0.2);
+}
+
+body.theme-bronze-stone .future-item {
+  background: rgba(180, 83, 9, 0.04);
+  border-color: rgba(180, 83, 9, 0.2);
+}
+
+body.theme-bronze-stone .text-rose { color: #DC2626; }
+body.theme-bronze-stone .text-emerald { color: #059669; }
+body.theme-bronze-stone .text-cyan { color: #B45309; }
+
+body.theme-bronze-stone .lesson-item-desc {
+  color: #3F3F46;
+}
+
+/* ==========================================================================
+   SLIDE 30: TEAM PRESENTATION & SUMMARY
+   ========================================================================== */
+body.theme-bronze-stone .team-member-card {
+  background: #FAF9F6 !important;
+  border: 1px solid rgba(38, 38, 38, 0.1) !important;
+}
+
+body.theme-bronze-stone .team-member-card:hover {
+  background: #FFFFFF !important;
+  border-color: #B45309 !important;
+  box-shadow: 0 4px 14px rgba(180, 83, 9, 0.1) !important;
+}
+
+body.theme-bronze-stone .team-avatar {
+  background: linear-gradient(135deg, #78350F, #B45309) !important;
+  color: #FFFFFF !important;
+}
+
+body.theme-bronze-stone .lead-avatar-img {
+  border: 3px solid #B45309 !important;
+  box-shadow: 0 8px 24px rgba(180, 83, 9, 0.25), 0 2px 8px rgba(38, 38, 38, 0.08) !important;
+}
+
+body.theme-bronze-stone .team-avatar-img {
+  border: 2px solid #B45309 !important;
+  box-shadow: 0 2px 8px rgba(180, 83, 9, 0.15) !important;
+}
+
+/* ==========================================================================
+   GENERAL COMPONENT OVERRIDES (BRONZE STONE)
+   ========================================================================== */
+body.theme-bronze-stone .card-cyber,
+body.theme-bronze-stone .kpi-card,
+body.theme-bronze-stone .overview-card,
+body.theme-bronze-stone .spec-card,
+body.theme-bronze-stone .stat-card {
+  background: #FFFFFF;
+  border-color: rgba(38, 38, 38, 0.1);
+  color: #262626;
+  box-shadow: 0 4px 20px rgba(38, 38, 38, 0.05);
+}
+
+body.theme-bronze-stone .modal-content,
+body.theme-bronze-stone .drawer-content {
+  background: #FAF9F6;
+  color: #262626;
+  border: 1px solid rgba(38, 38, 38, 0.15);
+}
+
+body.theme-bronze-stone table {
+  color: #262626;
+}
+
+body.theme-bronze-stone th {
+  background: #F5F4F0;
+  color: #18181B;
+  border-bottom: 2px solid rgba(180, 83, 9, 0.4);
+}
+
+body.theme-bronze-stone td {
+  border-bottom: 1px solid rgba(38, 38, 38, 0.08);
+}
+
+/* ==========================================================================
+   SLIDE 30: EXECUTIVE PROJECT DIRECTOR & TEAM VIP SHOWCASE
+   ========================================================================== */
+body.theme-bronze-stone .lead-profile-card {
+  background: #FFFFFF !important;
+  border: 2px solid rgba(180, 83, 9, 0.35) !important;
+  box-shadow: 0 14px 40px rgba(180, 83, 9, 0.12), 0 2px 8px rgba(38, 38, 38, 0.05) !important;
+  border-radius: var(--radius-lg) !important;
+  text-align: center !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+body.theme-bronze-stone .lead-avatar-wrap {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100% !important;
+  margin: 10px auto 16px auto !important;
+}
+
+body.theme-bronze-stone .lead-avatar-img {
+  width: 220px !important;
+  height: 220px !important;
+  border: 4px solid #B45309 !important;
+  border-radius: 24px !important;
+  box-shadow: 0 14px 36px rgba(180, 83, 9, 0.28), 0 4px 12px rgba(38, 38, 38, 0.08) !important;
+  margin: 0 auto !important;
+}
+
+body.theme-bronze-stone .lead-badge-director {
+  background: linear-gradient(135deg, #78350F, #B45309) !important;
+  color: #FFFFFF !important;
+  font-weight: 800 !important;
+  box-shadow: 0 4px 12px rgba(180, 83, 9, 0.3) !important;
+}
+
+body.theme-bronze-stone .lead-badge-presenter {
+  background: rgba(180, 83, 9, 0.1) !important;
+  border: 1.5px solid rgba(180, 83, 9, 0.35) !important;
+  color: #B45309 !important;
+  font-weight: 700 !important;
+}
+
+body.theme-bronze-stone .lead-name-text {
+  color: #18181B !important;
+  font-size: 2.2rem !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.02em !important;
+  margin-top: 8px !important;
+  text-align: center !important;
+}
+
+body.theme-bronze-stone .lead-id-tag {
+  background: rgba(180, 83, 9, 0.08) !important;
+  border: 1.5px solid rgba(180, 83, 9, 0.35) !important;
+  color: #B45309 !important;
+  font-size: 1.2rem !important;
+  font-weight: 700 !important;
+  padding: 5px 16px !important;
+  border-radius: var(--radius-sm) !important;
+  margin: 8px auto !important;
+  display: inline-flex !important;
+}
+
+body.theme-bronze-stone .lead-id-tag strong {
+  color: #78350F !important;
+  font-weight: 800 !important;
+}
+
+body.theme-bronze-stone .lead-role-text {
+  color: #B45309 !important;
+  font-size: 1.3rem !important;
+  font-weight: 700 !important;
+  text-align: center !important;
+}
+
+body.theme-bronze-stone .lead-faculty-text {
+  color: #52525B !important;
+  font-size: 1.05rem !important;
+  text-align: center !important;
+}
+
+body.theme-bronze-stone .lead-thankyou-box {
+  background: linear-gradient(135deg, rgba(180, 83, 9, 0.05), rgba(180, 83, 9, 0.12)) !important;
+  border: 1.5px solid rgba(180, 83, 9, 0.35) !important;
+  color: #78350F !important;
+  font-size: 1.05rem !important;
+  font-weight: 700 !important;
+}
+
+body.theme-bronze-stone .team-members-container {
+  background: #FFFFFF !important;
+  border: 1.5px solid rgba(38, 38, 38, 0.12) !important;
+  box-shadow: 0 10px 30px rgba(38, 38, 38, 0.05) !important;
+  border-radius: var(--radius-lg) !important;
+}
+
+body.theme-bronze-stone .team-member-card {
+  padding: 12px 18px !important;
+  border-radius: var(--radius-md) !important;
+  border: 1px solid rgba(38, 38, 38, 0.1) !important;
+  background: #FAF9F6 !important;
+  transition: all var(--transition-fast) !important;
+}
+
+body.theme-bronze-stone .team-member-card:hover {
+  background: #FFFFFF !important;
+  border-color: #B45309 !important;
+  box-shadow: 0 6px 18px rgba(180, 83, 9, 0.12) !important;
+  transform: translateX(4px) !important;
+}
+
+body.theme-bronze-stone .team-avatar-img {
+  width: 52px !important;
+  height: 52px !important;
+  border: 2.5px solid #B45309 !important;
+  box-shadow: 0 4px 12px rgba(180, 83, 9, 0.18) !important;
+}
+
+body.theme-bronze-stone .team-avatar {
+  width: 52px !important;
+  height: 52px !important;
+  font-size: 1.1rem !important;
+  font-weight: 700 !important;
+}
+
+body.theme-bronze-stone .team-member-name {
+  font-size: 1.15rem !important;
+  font-weight: 800 !important;
+  color: #18181B !important;
+}
+
+body.theme-bronze-stone .team-member-role {
+  font-size: 0.92rem !important;
+  color: #B45309 !important;
+  font-weight: 600 !important;
+  margin-top: 2px !important;
+}
+
+body.theme-bronze-stone .team-member-id {
+  font-family: var(--font-mono) !important;
+  font-size: 0.96rem !important;
+  font-weight: 700 !important;
+  color: #71717A !important;
+  background: rgba(38, 38, 38, 0.05) !important;
+  padding: 4px 10px !important;
+  border-radius: var(--radius-sm) !important;
+}
+
+
+

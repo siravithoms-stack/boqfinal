@@ -1,0 +1,24 @@
+{
+  "authoring": "Blender 5.2.2 LTS",
+  "units": "metres",
+  "sourceObjects": 575,
+  "cellularRafters": 42,
+  "textureImages": 18,
+  "glbBytes": 16707856,
+  "glbSha256": "6619c945c1c5fd249e290d33294e73578bb1fe43c3cc15eddc652feefc906751",
+  "dimensions": [
+    68.05,
+    154.9
+  ],
+  "dependencies": "All glTF buffers and image maps embedded. No Draco decoder or remote assets.",
+  "scope": [
+    2,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
+  ]
+}

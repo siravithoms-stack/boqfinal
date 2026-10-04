@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>โครงการก่อสร้างอาคารโรงงาน 10,540 ตร.ม. | Modern Engineering Web Slide Deck</title>
+  <meta name="description" content="การประชุมเปิดโครงการ แผนบริหารต้นทุน Sell BOQ สู่ Target Working Budget และการควบคุมบูรณาการ 111.62 ล้านบาท">
+
+  <!-- Local Offline Fonts (100% Reliable without Internet) -->
+  <link rel="stylesheet" href="fonts/fonts.css">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/design-tokens.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/theme-bronze-stone.css">
+
+  <!-- Three.js for 3D Visualizations (Local Offline Copy) -->
+  <script src="js/three.min.js"></script>
+  <script src="js/vendor/GLTFLoader.js"></script>
+  <script src="js/vendor/gsap/gsap.min.js"></script>
+</head>
+<body class="theme-bronze-stone">
+  <!-- Ambient High-Tech Glow Layer -->
+  <div class="bg-ambient-layer"></div>
+
+  <!-- Top Navigation & Presentation HUD -->
+  <header class="top-bar">
+    <div class="brand-section">
+      <div class="brand-badge">SAU CIVIL ENG</div>
+      <div class="project-title">
+        <span>โครงการก่อสร้างอาคารโรงงาน</span>
+        <span>•</span>
+        <strong style="color: var(--accent-cyan);">111.62 ล้านบาท</strong>
+      </div>
+    </div>
+
+    <div class="top-controls">
+      <!-- Presenter Timer -->
+      <button id="timerBtn" class="hud-btn" title="พักเวลา" aria-label="พักหรือเดินเวลาต่อ" aria-pressed="false">
+        <span style="color: var(--accent-cyan);">⏱</span>
+        <span id="timerDisplay">00:00</span>
+      </button>
+      <button id="timerResetBtn" class="hud-btn" title="เริ่มนับเวลาใหม่" aria-label="เริ่มนับเวลาใหม่">↺</button>
+      <button id="themeBtn" class="hud-btn active" title="เปลี่ยนธีม [T]" aria-label="เปลี่ยนธีม" aria-pressed="true">
+        <span>◐</span><span id="themeLabel">ธีม: Bronze Stone</span>
+      </button>
+      <button id="soundBtn" class="hud-btn active" title="เปิดหรือปิดเสียงเอฟเฟกต์" aria-label="เปิดหรือปิดเสียงเอฟเฟกต์" aria-pressed="true">
+        <span>♪</span><span class="btn-label">SFX: ON</span>
+      </button>
+
+      <!-- Slide Grid Drawer Button -->
+      <button id="gridBtn" class="hud-btn" title="Slide Overview [G]">
+        <span>▦</span>
+        <span>ภาพรวม [G]</span>
+      </button>
+
+      <!-- Fullscreen Toggle -->
+      <button id="fullscreenBtn" class="hud-btn" title="Fullscreen [F]">
+        <span>⛶</span>
+        <span>เต็มจอ [F]</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Master Slide Viewport -->
+  <main class="slide-viewport">
+    <div class="slide-canvas-wrapper">
+      <div id="slideStage" class="slide-stage">
+        <!-- Slides are dynamically rendered by app.js from SLIDES_DATA -->
+      </div>
+    </div>
+  </main>
+
+  <!-- Bottom Navigation HUD -->
+  <footer class="bottom-bar">
+    <!-- Prev / Next Controls -->
+    <div class="nav-buttons">
+      <button id="prevBtn" class="nav-btn" title="Previous Slide [Left Arrow]" aria-label="Previous Slide">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="15 18 9 12 15 6"></polyline>
+        </svg>
+      </button>
+      <button id="nextBtn" class="nav-btn" title="Next Slide [Right Arrow / Space]" aria-label="Next Slide">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </button>
+      <span id="slideNumIndicator" style="font-family: var(--font-mono); font-size: 0.9rem; font-weight: 700; color: var(--text-primary); margin-left: 8px;">01 / 21</span>
+    </div>
+
+    <!-- Progress Track Bar -->
+    <div class="progress-track-wrapper">
+      <div class="progress-info">
+        <span>PROGRESS</span>
+        <span id="progressText">TARGET S-CURVE ALIGNED</span>
+      </div>
+      <div class="progress-bar-bg">
+        <div id="progressBar" class="progress-bar-fill"></div>
+      </div>
+    </div>
+
+    <!-- Keyboard Shortcuts Helper -->
+    <div class="keyboard-hints">
+      <span>ปุ่มลัด:</span>
+      <span class="key-tag">←</span>
+      <span class="key-tag">→</span>
+      <span class="key-tag">SPACE</span>
+      <span class="key-tag">G (Grid)</span>
+      <span class="key-tag">F (Fullscreen)</span>
+    </div>
+  </footer>
+
+  <!-- Slide Overview Grid Modal (Drawer) -->
+  <div id="overviewModal" class="overview-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Slide Overview">
+    <div class="overview-header">
+      <div style="display: flex; align-items: center; gap: 12px;">
+        <h2 id="overviewTitle" style="font-family: var(--font-display); font-size: 1.5rem; color: var(--text-primary);">สารบัญสไลด์ทั้งหมด (30 หน้านำเสนอ)</h2>
+        <span class="card-badge" style="color: var(--accent-cyan);">คลิกเพื่อข้ามไปยังหน้านั้นทันที</span>
+      </div>
+      <button id="closeOverviewBtn" class="hud-btn" style="padding: 8px 16px;">
+        ✕ ปิดหน้าต่าง [ESC]
+      </button>
+    </div>
+    <div id="overviewGrid" class="overview-grid">
+      <!-- Thumbnails populated by app.js -->
+    </div>
+  </div>
+
+  <!-- Main Application Script -->
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

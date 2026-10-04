@@ -1,0 +1,1735 @@
+C:\Users\botzz\Desktop\finalslidetest\tools\build_factory.py:29: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat=bpy.data.materials.new('FactorySurface_%02d'%i);mat.use_nodes=True;p=mat.node_tree.nodes.get('Principled BSDF');p.inputs['Base Color'].default_value=(*m['color'],1)
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Removed 16 vertices
+Info: Saved as "factory-production.blend"
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+18:17:37 | INFO: Starting glTF 2.0 export
+18:17:37 | INFO: Extracting primitive: Mesh_0000
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0001
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0019
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0020
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0021
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0022
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0023
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0024
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0025
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0026
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0027
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0028
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0029
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0030
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0031
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0032
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0033
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0034
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0035
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0036
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0037
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0038
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0039
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0040
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0041
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0042
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0043
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0044
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0045
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0046
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0047
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0048
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0049
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0050
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0051
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0052
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0053
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0054
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0055
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0056
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0057
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0058
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0059
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0060
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0521
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0524
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0527
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0530
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0533
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0536
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0539
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0542
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0002
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0012
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0018
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0061
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0062
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0063
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0064
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0065
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0066
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0067
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0068
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0069
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0070
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0071
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0072
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0073
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0074
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0075
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0076
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0077
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0078
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0079
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0080
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0081
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0082
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0083
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0084
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0085
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0086
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0087
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0088
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0089
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0090
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0091
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0092
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0093
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0094
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0095
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0096
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0097
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0098
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0099
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0100
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0101
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0102
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.001
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.002
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0106
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0107
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0108
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.003
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.004
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.005
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0112
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0113
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0114
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.006
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.007
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.008
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0118
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0119
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0120
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.009
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.010
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.011
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0124
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0125
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0126
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.012
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.013
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.014
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0130
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0131
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0132
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.015
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.016
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.017
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0136
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0137
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0138
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.018
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.019
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.020
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0142
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0143
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0144
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.021
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.022
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.023
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0148
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0149
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0150
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.024
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.025
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.026
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0154
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0155
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0156
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.027
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.028
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.029
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0160
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0161
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0162
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.030
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.031
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.032
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0166
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0167
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0168
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.033
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.034
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.035
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0172
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0173
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0174
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.036
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.037
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.038
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0178
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0179
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0180
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.039
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.040
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: CellularWeb.041
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0184
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0185
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0186
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0229
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0230
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0231
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0232
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0233
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0234
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0235
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0236
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0237
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0238
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0239
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0240
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0241
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0242
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0243
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0244
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0245
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0246
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0247
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0248
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0249
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0250
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0251
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0252
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0253
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0254
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0255
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0256
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0257
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0258
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0259
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0260
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0261
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0262
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0263
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0264
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0265
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0266
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0267
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0268
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0269
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0270
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0274
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0275
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0276
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0277
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0278
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0279
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0280
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0281
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0282
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0283
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0284
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0285
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0286
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0287
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0288
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0289
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0290
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0291
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0292
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0293
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0294
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0298
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0299
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0300
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0301
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0302
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0303
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0304
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0305
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0306
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0307
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0308
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0309
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0310
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0311
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0313
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0271
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0272
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0273
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0297
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0003
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0004
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0005
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0006
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0007
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0008
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0009
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0010
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0011
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0013
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0014
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0015
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0016
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0017
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0295
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0296
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0522
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0523
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0525
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0526
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0528
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0529
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0531
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0532
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0534
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0535
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0537
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0538
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0540
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0541
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0543
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0544
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0187
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0188
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0189
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0190
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0191
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0192
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0193
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0194
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0195
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0196
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0197
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0198
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0199
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0200
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0201
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0202
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0203
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0204
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0205
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0206
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0207
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0208
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0209
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0210
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0211
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0212
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0213
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0214
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0215
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0216
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0217
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0218
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0219
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0220
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0221
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0222
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0223
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0224
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0225
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0226
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0227
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0228
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0385
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0386
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0387
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0388
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0389
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0390
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0391
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0392
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0570
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0571
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0573
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0574
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0312
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0314
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0315
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0353
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0354
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0355
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0356
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0357
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0358
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0359
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0360
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0361
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0362
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0363
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0364
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0365
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0366
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0367
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0368
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0369
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0370
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0371
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0372
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0373
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0374
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0375
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0376
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0377
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0378
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0379
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0380
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0381
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0382
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0383
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0384
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0393
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0394
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0395
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0396
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0397
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0398
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0399
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0400
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0401
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0402
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0403
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0404
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0405
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0406
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0407
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0408
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0409
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0410
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0411
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0412
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0413
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0414
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0415
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0416
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0417
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0418
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0419
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0420
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0421
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0422
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0423
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0424
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0425
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0426
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0427
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0428
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0429
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0430
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0431
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0432
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0433
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0434
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0435
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0436
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0437
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0438
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0439
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0440
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0441
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0442
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0443
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0444
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0445
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0446
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0447
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0448
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0449
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0450
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0451
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0452
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0453
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0454
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0455
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0456
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0457
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0458
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0459
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0460
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0461
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0462
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0463
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0464
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0465
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0466
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0467
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0468
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0469
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0470
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0471
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0472
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0473
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0474
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0475
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0476
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0477
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0478
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0479
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0480
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0481
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0482
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0483
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0484
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0485
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0486
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0487
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0488
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0489
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0490
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0491
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0492
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0493
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0494
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0495
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0496
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0497
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0498
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0499
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0500
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0501
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0502
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0503
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0504
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0505
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0506
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0507
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0508
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0509
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0510
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0511
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0512
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0513
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0514
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0515
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0516
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0517
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0518
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0519
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0520
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0545
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0546
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0548
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0549
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0550
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0552
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0553
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0554
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0556
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0557
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0558
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0560
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0561
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0562
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0564
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0565
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0566
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0568
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0569
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0572
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0316
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0317
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0318
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0319
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0320
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0321
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0322
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0323
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0324
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0325
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0326
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0327
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0328
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0329
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0330
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0331
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0332
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0333
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0334
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0335
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0336
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0337
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0338
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0339
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0340
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0341
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0342
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0343
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0344
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0345
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0346
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0347
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0348
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0349
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0350
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0351
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0352
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0547
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0551
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0555
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0559
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0563
+18:17:38 | INFO: Primitives created: 1
+18:17:38 | INFO: Extracting primitive: Mesh_0567
+18:17:38 | INFO: Primitives created: 1
+18:17:39 | INFO: Finished glTF 2.0 export in 1.378507137298584 s
+
+PRODUCTION EXPORT 575 metre-accurate source objects
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

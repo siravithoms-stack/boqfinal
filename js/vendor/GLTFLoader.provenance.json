@@ -1,0 +1,7 @@
+{
+  "version": "Three.js r128",
+  "source": "https://raw.githubusercontent.com/mrdoob/three.js/r128/examples/js/loaders/GLTFLoader.js",
+  "sha256": "5c15967ba830918a9caea6338712c994c354bccd4edc4569bde411c3ec06a3e6",
+  "installed": "2026-10-02",
+  "purpose": "Local loader matching the existing Three.js renderer; embedded in standalone."
+}
